@@ -23,7 +23,6 @@ namespace Sorting
 
             long[] orignalInputArray = (long[])inputArray.Clone();
             
-
             DoSort<BubbleSort>( ref inputArray );           
 
             inputArray = (long[])orignalInputArray.Clone();
